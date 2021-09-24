@@ -30,3 +30,24 @@ body {
     border: none;
     cursor: pointer;
 }
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+  
+.navbar li {
+    float: left;
+    margin-left: 10px;
+}
+  
+.navbar li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
