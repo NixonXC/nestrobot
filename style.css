@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@200&display=swap');
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url(assets/background.svg);
@@ -15,7 +16,7 @@ body {
     margin-left: 10px;
 }
 .navbar li a {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: block;
     font-size: 22px;
     text-decoration: none;
@@ -33,7 +34,7 @@ body {
 }
 .navbar li a:hover{
     color: rgb(9, 163, 209);
-    text-decoration: overline;
+    text-decoration: underline;
     transition: 0.60s;
 }
 .main p {
