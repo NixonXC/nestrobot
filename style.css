@@ -3,6 +3,25 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url(assets/background.svg);
 }
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+.navbar li {
+    float: left;
+    margin-left: 10px;
+}
+.navbar li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
 .main h1{
     text-align: center;
     font-size: 40px;
@@ -29,25 +48,4 @@ body {
     font-size: 18px;
     border: none;
     cursor: pointer;
-}
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: transparent;
-}
-  
-.navbar li {
-    float: left;
-    margin-left: 10px;
-}
-  
-.navbar li a {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: block;
-    font-size: 25px;
-    text-decoration: none;
-    color: white;
-    padding: 8px;
 }
