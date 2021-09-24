@@ -17,7 +17,7 @@ body {
 .navbar li a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: block;
-    font-size: 25px;
+    font-size: 22px;
     text-decoration: none;
     color: white;
     padding: 8px;
@@ -30,6 +30,11 @@ body {
     font-size: 40px;
     color: white;
     font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar li a:hover{
+    color: rgb(9, 163, 209);
+    text-decoration: overline;
+    transition: 0.60s;
 }
 .main p {
     color: white;
@@ -46,9 +51,14 @@ body {
     margin: auto;
     padding: 20px;
     border-radius: 12px;
-    background-color: blue;
-    color: white;
+    background-color: rgb(15, 47, 228);
+    color: rgb(255, 255, 255);
     font-size: 16px;
     border: none;
     cursor: pointer;
+}
+#inv:hover {
+    transition: 0.70s;
+    color: rgb(255, 255, 255);
+    background-color: blue;
 }
