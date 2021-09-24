@@ -1,5 +1,5 @@
 document.getElementById("inv").onclick = function ()
 {
-    window.location.href="https://google.com"
+    window.location.href="#"
 };
 console.log("#")
