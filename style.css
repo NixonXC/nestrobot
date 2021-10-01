@@ -27,9 +27,8 @@ body {
     float: left;
 }
 .navbar li a:hover{
-    text-decoration: underline;
     color: rgb(223, 0, 0);
-    transition: 0.60s;
+    transition: 0.80s;
 }
 .main h1{
     text-align: center;
@@ -59,7 +58,7 @@ body {
     cursor: pointer;
 }
 #inv:hover {
-    transition: 0.70s;
+    transition: 0.90s;
     color: rgb(255, 255, 255);
     background-color: blue;
 }
